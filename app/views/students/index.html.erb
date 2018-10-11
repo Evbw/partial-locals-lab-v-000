@@ -1,0 +1,4 @@
+<%= form_tag search_index_path, method: :get do %>
+  <%= text_field_tag :student, params[:student] %>
+  <%= submit_tag "Search", name: nil %>
+<% end %>
